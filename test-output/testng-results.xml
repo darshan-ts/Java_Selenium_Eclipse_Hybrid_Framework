@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-19T20:29:25 IST" name="Suite" finished-at="2025-08-19T20:29:27 IST" duration-ms="2445">
+    <groups>
+    </groups>
+    <test started-at="2025-08-19T20:29:25 IST" name="Test" finished-at="2025-08-19T20:29:27 IST" duration-ms="2445">
+      <class name="com.SwagLab.UITest.TestCases.T1_LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@5386659f]" started-at="2025-08-19T20:29:25 IST" name="setUp" finished-at="2025-08-19T20:29:27 IST" duration-ms="2192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUrl()[pri:1, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@5386659f]" started-at="2025-08-19T20:29:27 IST" name="verifyUrl" finished-at="2025-08-19T20:29:27 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method signature="verifyTitle()[pri:2, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@5386659f]" started-at="2025-08-19T20:29:27 IST" name="verifyTitle" finished-at="2025-08-19T20:29:27 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="validateLoginFunctionality()[pri:3, instance:com.SwagLab.UITest.TestCases.T1_LoginTest@5386659f]" started-at="2025-08-19T20:29:27 IST" name="validateLoginFunctionality" finished-at="2025-08-19T20:29:27 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctionality -->
+      </class> <!-- com.SwagLab.UITest.TestCases.T1_LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
