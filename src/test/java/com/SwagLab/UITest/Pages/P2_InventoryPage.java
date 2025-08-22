@@ -82,6 +82,6 @@ public class P2_InventoryPage
 	{
 		cartOption.click();
 		//navigate to cart page
-		return new P3_CartPage();
+		return new P3_CartPage(driver); //page navigates to next page then return next page object.Here we need to pass driver to resolve error. Before it was empty! 
 	}
 }
