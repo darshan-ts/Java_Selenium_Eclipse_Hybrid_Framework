@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="LoginTest">
+  <parameter name="bname" value="edge"></parameter>
+    <classes>
+     <class name="com.SwagLab.UITest.TestCases.T1_LoginTest"/>
+     <class name="com.SwagLab.UITest.TestCases.T2_InventoryTest"/>
+     <class name="com.SwagLab.UITest.TestCases.T3_CartTest"/>
+     <class name="com.SwagLab.UITest.TestCases.T4_CheckoutTest"/>
+     <class name="com.SwagLab.UITest.TestCases.T5_OverviewTest"/>
+    </classes>
+  </test> <!-- Test -->
+   
+ </suite> <!-- Suite -->

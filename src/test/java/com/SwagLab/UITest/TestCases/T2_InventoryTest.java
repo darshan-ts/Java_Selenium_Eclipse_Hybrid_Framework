@@ -13,7 +13,7 @@ public class T2_InventoryTest extends BaseClass
 	public void pageSetup()
 	{
 		ip=lp.doLogin("standard_user","secret_sauce");
-		
+		addWait();
 	}
 	
   @Test(priority=1)
@@ -34,7 +34,8 @@ public class T2_InventoryTest extends BaseClass
   @Test(priority=3)
   public void validateAddToCart()
   {
-	  ip.addProductToCart("Sauce Labs Bike Light");
+	  //ip.addProductToCart("Sauce Labs Bike Light"); //Before we used this hard-coded.Now it is replaced with below line.
+	  ip.addProductToCart(prop.getData("pname1")); //We are reading data from Config.properties file
   }
   
   

@@ -37,7 +37,7 @@ public class P3_CartPage
 	{
 		int count=allCartProducts.size();
 		
-		System.out.println("Total Products added inti Cart: "+count);
+		System.out.println("Total Products added into Cart: "+count);
 		for(WebElement i:allCartProducts)
 		{
 			System.out.println(i.getText());
@@ -71,7 +71,7 @@ public class P3_CartPage
 	public P4_CheckoutPage doContinueCheckout()
 	{
 		checkoutBtn.click();
-		return new P4_CheckoutPage();
+		return new P4_CheckoutPage(driver); //page navigates to next page then return next page object.Here we need to pass driver to resolve error. Before it was empty!
 	}
 	
 	

@@ -19,7 +19,7 @@ public class PropertiesUtil
 		  p1=new Properties();
 		
 		//read data from file we need path
-		  File f1=new File(System.getProperty("user.dir")+"//ConfigData//"+fileName+".properties");
+		  File f1=new File(System.getProperty("user.dir")+"//ConfigFiles//"+fileName+".properties");
 		  
 		  //read a file in stream: FileInputStream
 		  FileInputStream fs;

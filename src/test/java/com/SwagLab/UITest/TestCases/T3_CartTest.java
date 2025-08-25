@@ -12,8 +12,12 @@ public class T3_CartTest extends BaseClass
 	public void pageSet()
 	{
 		ip=lp.doLogin("standard_user","secret_sauce");
-		ip=ip.addProductToCart("Sauce Labs Backpack");
+		//ip=ip.addProductToCart("Sauce Labs Backpack"); //Before we used this hard-coded.Now it is replaced with below lines.
+		addWait();
+		ip=ip.addProductToCart(prop.getData("pname1")); //We are reading data from Config.properties file
+		addWait();
 		cp=ip.launchCartPage();
+		addWait();
 		
 		
 	}
@@ -27,14 +31,16 @@ public class T3_CartTest extends BaseClass
   @Test(priority=2)
   public void validateRemoveProduct()
   {
-	  cp.removeProduct("Sauce Labs Backpack");
+	  //cp.removeProduct("Sauce Labs Backpack"); //Before we used this hard-coded.Now it is replaced with below line.
+	  cp.removeProduct(prop.getData("pname1")); //We are reading data from Config.properties file
   }
   
   @Test(priority=3)
   public void validateContinueShopping()
   {
 	  ip=cp.doContinueShopping();
-	  ip.addProductToCart("Sauce Labs Fleece Jacket");
+	  //ip.addProductToCart("Sauce Labs Fleece Jacket"); //Before we used this hard-coded.Now it is replaced with below line.
+	  ip.addProductToCart(prop.getData("pname2")); //We are reading data from Config.properties file
 	  cp=ip.launchCartPage();
   }
   
