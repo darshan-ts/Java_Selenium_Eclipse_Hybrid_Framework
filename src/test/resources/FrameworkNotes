@@ -1,0 +1,72 @@
+
+Step1: Design Framework
+Step2: Execute Framework
+---------------------------
+	Selenium+Maven+TestNG
+	--------------------------
+	1.using testng.xml file
+	2.Maven pom.xml file
+	3.Using CLI
+	
+	4.Using Jenkins
+	
+	project-->store(github)-->changes-->automatically execute through Jenkins
+	selenium+github+jenkins
+	
+	What is Maven?
+	==================
+	Maven is build management tool as well as project management tool
+	
+	plugin
+	-----------
+	1.Surefire plugin
+	https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html
+	
+	2.compiler plugin
+	https://maven.apache.org/plugins/maven-compiler-plugin/examples/compile-using-different-jdk.html
+	
+	Goals
+	============
+	1.clean
+	--------------
+	delete all the files from target folder
+	
+	
+	2.test
+	--------------
+	test goal execute project
+	
+	3.install
+	--------------
+	install required files and execute project
+	==================================================
+	step: Maven Project Executing using CLI
+	----------------------------------------
+	1.download and setup maven in local machine
+	
+	https://maven.apache.org/download.cgi
+	
+	download zip file--->extract--->open upto bin folder and copy path -->
+	add it in env variable
+	
+	after the setup use cmd = mvn -version
+	check the maven version
+	=========================================================
+	what is Devops
+	--------------------
+	Git+Github
+	Jenkins
+	Integration between github+jenkins
+	Docker
+	
+	Step3: Attach Report
+	====================
+		TestNg Listener
+		Extent Report
+		Chain test report
+		
+		Selenium Grid
+		------------------
+		
+		
+	

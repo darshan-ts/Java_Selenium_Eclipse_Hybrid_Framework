@@ -1,0 +1,16 @@
+com\SwagLab\UITest\Utilities\ExcelUtil.class
+com\SwagLab\UITest\Pages\P1_LoginPage.class
+com\SwagLab\UITest\Base\BaseClass.class
+com\SwagLab\UITest\Pages\P5_OverviewPage.class
+com\SwagLab\UITest\Utilities\PropertiesUtil.class
+com\SwagLab\UITest\TestCases\T2_InventoryTest.class
+com\SwagLab\UITest\Pages\P4_CheckoutPage.class
+com\SwagLab\UITest\Utilities\ExcelUtil$1.class
+com\SwagLab\UITest\TestCases\T3_CartTest.class
+com\SwagLab\UITest\TestCases\T5_OverviewTest.class
+com\SwagLab\UITest\Utilities\BrowserProvider.class
+com\SwagLab\UITest\Pages\P3_CartPage.class
+com\SwagLab\UITest\Utilities\Utility.class
+com\SwagLab\UITest\TestCases\T1_LoginTest.class
+com\SwagLab\UITest\Pages\P2_InventoryPage.class
+com\SwagLab\UITest\TestCases\T4_CheckoutTest.class

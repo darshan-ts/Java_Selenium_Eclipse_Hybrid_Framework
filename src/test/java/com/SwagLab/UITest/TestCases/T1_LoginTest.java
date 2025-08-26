@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.Assert;
 import com.SwagLab.UITest.Base.BaseClass;
+import com.SwagLab.UITest.Utilities.ExcelUtil;
 import com.SwagLab.UITest.Utilities.Utility;
 
 public class T1_LoginTest extends BaseClass
@@ -35,8 +36,10 @@ public class T1_LoginTest extends BaseClass
   @Test(priority=3)
   public void validateLoginFunctionality() 
   {
-	  lp.setUserName("standard_user");
-	  lp.setPassword("secret_sauce");  
+	  //lp.setUserName("standard_user"); //Before we used this hard-coded.Now it is replaced with below line.
+	  //lp.setPassword("secret_sauce");  //Before we used this hard-coded.Now it is replaced with below line.
+	  lp.setUserName(ExcelUtil.getStringData("UserData",0,1)); //We are reading data from excel based on index
+	  lp.setPassword(ExcelUtil.getStringData("UserData",1,1)); //We are reading data from excel based on index
 	  lp.ClickOnLoginButton();
 	  //Utility.getScreenshot(driver, "Swaglabs Home Page");
 	  
